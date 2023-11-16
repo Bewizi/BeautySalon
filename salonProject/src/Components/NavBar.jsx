@@ -53,7 +53,7 @@ function NavBar() {
         </div>
 
         {/* ICON TOGGLE */}
-        <div onClick={handleClick} className="cursor-pointer lg:hidden xl:hidden">
+        <div onClick={handleClick} className="cursor-pointer  lg:hidden xl:hidden">
           {!nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
         </div>
         <nav
@@ -63,7 +63,7 @@ function NavBar() {
               : "fixed top-[-100%] "
           }
         >
-          <ul className="flex flex-col py-10 lg:hidden xl:hidden">
+          <ul className="flex flex-col py-10  lg:hidden xl:hidden">
             <li className="py-5">
               <a href="#">Despre</a>
             </li>
